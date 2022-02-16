@@ -1,3 +1,6 @@
+// https://jsprimer.net/basic/async/
+// https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Using_promises
+
 // 最初にコードを簡潔にするための関数・定数を定義します
 const dataListUrl = "/data/list.json";
 let dataList;
@@ -6,6 +9,7 @@ const delayTime = 2000;
 // 指定 ms 後に解決する Profime を返す関数
 // 所謂 sleep 関数と思ってもよい
 // await delay(2000) で 2 秒待つといった使い方
+// https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/async_function
 function delay(timeoutMs) {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -14,6 +18,7 @@ function delay(timeoutMs) {
   });
 }
 
+// 指定 URL の JSON データをフェッチするプロミスを返す非同期関数
 async function fetchJsonData(url) {
   const options = {
     method: "GET",
@@ -27,6 +32,9 @@ async function fetchJsonData(url) {
   // レスポンスは文字列では無く ReadbleStream であることに注意
   // text() や json() メソッドでレスポンスボディを読み込む
   const jsonData = await response.json();
+  // オブジェクトを return しているが非同期関数であるため
+  // 解決時に jsonData が渡されるプロミスを返していることに注意
+  // 上記 fetch/json でエラーがあると解決せずリジェクトされる
   return jsonData;
 }
 
