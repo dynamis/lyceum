@@ -43,8 +43,8 @@ app.get("/nopower", (req, res) => {
 app.get("/cleaning", (req, res) => {
   var filename = "cleaning.jpg";
   var options = {
-    root: "src",
-    dotfiles: "deny"
+    root: ".",
+    dotfiles: "deny",
   };
   res.sendFile(filename, options, (err) => {
     if (err) {
