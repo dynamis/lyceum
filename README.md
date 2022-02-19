@@ -47,6 +47,6 @@ Express でサーバを作る基本を確認するためのサンプル
 * [Hello Express](hello-express)
   * [CodeSandbox で実行](http://urls.jp/lyceum/csb/hello-express)
   * [StackBlitz で実行](http://urls.jp/lyceum/sb/hello-express)
-* [Hello Express Routing](hello-express-routing)
+* [Hello Express Routing](express-routing)
   * [CodeSandbox で実行](http://urls.jp/lyceum/csb/hello-express-routing)
   * [StackBlitz で実行](http://urls.jp/lyceum/sb/hello-express-routing)
