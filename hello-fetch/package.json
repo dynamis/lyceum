@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "serve",
     "start": "serve"
   },
-  "keywords": [],
   "author": "dynamis",
   "license": "MIT",
   "devDependencies": {

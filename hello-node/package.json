@@ -8,12 +8,10 @@
     "dev": "nodemon ./index.js",
     "start": "node ./index.js"
   },
-  "dependencies": {
-    "eslint": "8.9.0",
-    "prettier": "2.5.1"
-  },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "eslint": "8.9.0",
+    "nodemon": "1.18.4",
+    "prettier": "2.5.1"
   },
   "keywords": []
 }
