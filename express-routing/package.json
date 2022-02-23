@@ -1,17 +1,17 @@
 {
   "name": "express-routing",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "Express のルーティング練習用サンプル",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon ./index.js",
     "start": "node ./index.js"
   },
-  "author": "",
+  "author": "dynamis",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.2"
   },
   "devDependencies": {
     "eslint": "^7.22.0",
