@@ -1,0 +1,10 @@
+{
+  "installDependencies": true,
+  "startCommand": "npm run dev",
+  "env": {
+    "NODE_ENV": "development",
+    "AWS_DEFAULT_REGION": "ap-northeast-1",
+    "AWS_ACCESS_KEY_ID": "<ACCESS_KEY_ID>",
+    "AWS_SECRET_ACCESS_KEY": "<AWS_SECRET_ACCESS_KEY>"
+  }
+}
