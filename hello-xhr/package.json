@@ -9,6 +9,6 @@
   "author": "dynamis",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^13.0.2"
   }
 }
