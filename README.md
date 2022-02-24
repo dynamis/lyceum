@@ -16,6 +16,8 @@ JavaScript から XHR/Axios/Fetch を使って HTTP リクエストを発行す�
   - [CodeSandbox で実行](http://urls.jp/lyceum/csb/hello-fetch)
   - [StackBlitz で実行](http://urls.jp/lyceum/sb/hello-fetch)
 
+注: サンプルコード準備時点の StackBlitz では HEAD リクエストなど一部のメソッドによるリクエストにサーバが応答しないなどの制限があるため CodeSandbox での演習を推奨します。
+
 ## Hello Github API
 
 JavaScript から (Personal Access Token を用いて) Github REST API にアクセスする最小限のコードサンプル
