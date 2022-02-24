@@ -50,3 +50,7 @@ Express でサーバを作る基本を確認するためのサンプル
 - [Hello Express Routing](express-routing)
   - [CodeSandbox で実行](http://urls.jp/lyceum/csb/express-routing)
   - [StackBlitz で実行](http://urls.jp/lyceum/sb/express-routing)
+- [Express Generator (ESM)](express-generator-esm)
+  - [CodeSandbox で実行](http://urls.jp/lyceum/csb/express-generator-esm)
+  - [StackBlitz で実行](http://urls.jp/lyceum/sb/express-generator-esm)
+  
