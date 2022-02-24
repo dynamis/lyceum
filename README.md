@@ -55,4 +55,13 @@ Express でサーバを作る基本を確認するためのサンプル
 - [Express Generator (ESM)](express-generator-esm)
   - [CodeSandbox で実行](http://urls.jp/lyceum/csb/express-generator-esm)
   - [StackBlitz で実行](http://urls.jp/lyceum/sb/express-generator-esm)
-  
+
+## AWS JS SDK
+
+AWS JS SDK を使ってみる為のサンプル
+
+- [Hello AWS JS SDK](hello-aws-js-sdk)
+  - [CodeSandbox で実行](http://urls.jp/lyceum/csb/hello-aws-js-sdk)
+  - [StackBlitz で実行](http://urls.jp/lyceum/sb/hello-aws-js-sdk)
+
+注: フォークした上で AWS_ACCESS_KEY_ID と AWS_SECRET_ACCESS_KEY を環境変数に設定してご利用ください。StackBlitz で環境変数を設定するには .stackblitzrc ファイルに書き込むという方法がありますが、これは public な workspace の場合はシークレットアクセスキーの漏洩に繋がるため (課金して非公開で使う場合以外は) 避けてください。
