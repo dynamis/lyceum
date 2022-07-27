@@ -1,0 +1,23 @@
+{
+  "name": "heroku-node-express",
+  "version": "1.0.0",
+  "description": "Heroku (Node/Express) から S3 を利用するサンプル",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "dynamis",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.137.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
