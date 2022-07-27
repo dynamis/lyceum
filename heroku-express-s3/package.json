@@ -1,5 +1,5 @@
 {
-  "name": "heroku-node-express",
+  "name": "heroku-node-express-s3",
   "version": "1.0.0",
   "description": "Heroku (Node/Express) から S3 を利用するサンプル",
   "main": "index.js",
