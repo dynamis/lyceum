@@ -7,6 +7,6 @@ http
     // クライアントに返す HTTP レスポンスボディを順次書く
     res.write("Running Node ");
     res.write(process.version); // Node.js バージョン
-    res.end("test"); // レスポンス完了
+    res.end(" (end of response)"); // レスポンス完了
   })
   .listen(port); // 指定ポートを Listen して HTTP サーバを起動
