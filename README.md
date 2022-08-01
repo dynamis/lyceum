@@ -73,3 +73,7 @@ Nuxt のサーバミドルウェアとして Express を利用することでフ
 - [Nuxt with Express as server middleware](nuxt-with-express)
   - [CodeSandbox で実行](http://urls.jp/lyceum/csb/nuxt-with-express)
   - [StackBlitz で実行](http://urls.jp/lyceum/sb/nuxt-with-express)
+
+注: 最新の Nuxt (執筆時点 3.0rc6) では express を serverMiddleware に利用した場合には dev server を利用出来ません (`File URL host must be "localhost" or empty onlinux` のようなエラーメッセージが出ます)。`npm run build && npm start` で起動してください。
+CodeSandbox や StackBlitz では `npm run dev` の定義が無ければ `npm start` を実行しますが、事前に `npm run build` がされていないため失敗します。
+CodeSandbox では package.json の start スクリプトの定義を `nuxt build && nuxt start` のように定義することで動作します。StackBlitz でも同様ですが、エラーで停止した Terminal で `npm run build && npm start` を実行すれば package.json の書き換えハックは不要です。
