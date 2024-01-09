@@ -1,5 +1,5 @@
 {
-  "name": "node16-http-server",
+  "name": "node-http-server",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -9,9 +9,9 @@
     "start": "node ./index.js"
   },
   "devDependencies": {
-    "eslint": "8.9.0",
-    "nodemon": "1.18.4",
-    "prettier": "2.5.1"
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
   },
   "keywords": []
 }
