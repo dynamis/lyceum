@@ -7,7 +7,7 @@ const router = express.Router();
 app.use(bodyParser.json());
 
 router.get("/hello", (req, res) => {
-  res.send("Hello Express from catch-all route server Handler");
+  res.send("Hello Express from catch-all route server Handler of Nuxt");
 });
 
 router.all("/json", (req, res) => {
